@@ -10,9 +10,4 @@ int	ft_fibonacci(int nb)
 	return ft_fibonacci(nb - 1) + ft_fibonacci(nb - 2);
 }
 
-int	main(int r)
-{
-	r = ft_fibonacci(38);
-	printf("%d",r);
-	return(0);
-}
+
